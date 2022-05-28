@@ -8,11 +8,15 @@
 <script lang="ts">
 import Vue from 'vue';
 import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import { defineComponent } from '@vue/composition-api';
 
-export default Vue.extend({
+export default defineComponent({
   name: 'Home',
   components: {
     HelloWorld,
   },
+  setup(props) {
+    console.log(43)
+  }
 });
 </script>
