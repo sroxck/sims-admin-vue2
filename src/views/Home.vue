@@ -5,18 +5,7 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue';
+<script lang="ts" setup>
 import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-import { defineComponent } from '@vue/composition-api';
-
-export default defineComponent({
-  name: 'Home',
-  components: {
-    HelloWorld,
-  },
-  setup(props) {
-    console.log(43)
-  }
-});
+console.log(333)
 </script>
